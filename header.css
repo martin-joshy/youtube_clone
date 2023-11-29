@@ -1,0 +1,144 @@
+.base
+{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header
+{
+  
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+
+}
+.left-section
+{
+    height: 56px;
+    width: 169px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: row;
+
+}
+.middle-section
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 126px;
+    margin-right: 92px;
+    padding: 7px;
+
+}
+.right-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    width: 199px;
+
+}
+.right-section-icon-alignment
+{
+    margin-left: 23px;
+}
+.menu-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.menu-button:hover
+{
+    background-color:#cfd6d8dc;
+}
+.search-bar
+{
+    
+    flex: 1;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    border: 1px solid #b7b5b5;
+    
+
+}
+.search-icon
+{
+    background-color:rgba(230, 230, 230, 0.817);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.search-item
+{
+    width: 88%;
+    background-color: cadetblue;
+    flex-direction: row;
+    display: flex;
+    
+}
+.micro-phone
+{
+    flex: 1;
+    max-width: 45px;
+    margin-left: 15px;
+    background-color:#cfd6d8dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.micro-phone:hover
+{
+    background-color: #c4cacd;
+    cursor: pointer;
+}
+.searchbox
+{
+    flex:1;
+    border: none;
+    outline: none;
+}
+.profile-icon
+{
+    border-radius: 20px;
+}
+.right-section-hover-design
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-section-hover-design:hover
+{
+    background-color:#cfd6d8dc;
+    cursor: pointer;
+
+}
+
+
+
